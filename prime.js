@@ -1,7 +1,7 @@
 function prime(num) {
   let count = 0;
-  for (i = 0; i < num; i--) {
-    if (num % 2 == 0) {
+  for (i = 1; i < num; i++) {
+    if (num % i == 0) {
       count++;
     }
   }
@@ -14,5 +14,7 @@ let ans = prime(45);
 if (ans == true) {
   console.log(" Prime");
 } else {
-  console.log("Not prime");
+
+  console.log("Not Prime");
+
 }
