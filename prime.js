@@ -14,5 +14,7 @@ let ans = prime(45);
 if (ans == true) {
   console.log(" Prime");
 } else {
+
   console.log("Not Prime");
+
 }
